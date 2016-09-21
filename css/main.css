@@ -62,4 +62,16 @@
   font-size: 14px;
 }
 
+.cat-image {
+  background: url("cat.png");
+}
+
+.dog-image {
+  background: url("dog.png");
+}
+
+.lion-image {
+  background: url("lion.png");
+}
+
 /*# sourceMappingURL=main.css.map */

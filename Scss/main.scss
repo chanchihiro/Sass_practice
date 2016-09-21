@@ -45,3 +45,24 @@ $i:10;
 }
 
 
+$animals: cat, dog, lion;
+
+@each $animal in $animals{
+	.#{$animal}-image{
+		background: url("#{$animal}.png");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
