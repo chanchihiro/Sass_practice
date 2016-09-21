@@ -64,4 +64,15 @@
   background-color: #fff;
   border-radius: 4px; }
 
+.msg, .errormag, .savingmsg {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 4px; }
+
+.errormag {
+  background-color: red; }
+
+.savingmsg {
+  background-color: orange; }
+
 /*# sourceMappingURL=main.css.map */

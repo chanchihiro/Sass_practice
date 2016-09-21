@@ -75,6 +75,23 @@ $animals: cat, dog, lion;
 }
 
 
+.msg{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px 4px;
+}
+
+.errormag{
+	@extend .msg;
+	background-color: red;
+}
+
+.savingmsg{
+	@extend .msg;
+	background-color: orange;
+}
+
+
 
 
 
