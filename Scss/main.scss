@@ -64,6 +64,17 @@ $animals: cat, dog, lion;
 }
 
 
+@mixin radius($radius){
+	border: 1px solid #000;
+	background-color: #fff;
+	border-radius: $radius;
+}
+
+.kadomaru{
+	@include radius(4px);
+}
+
+
 
 
 

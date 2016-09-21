@@ -1,82 +1,67 @@
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 #header {
-  width: 960px;
-}
+  width: 960px; }
 #header p {
   color: blue;
-  font-size: 14px;
-}
+  font-size: 14px; }
 #header nav li {
   float: left;
-  list-style-type: none;
-}
+  list-style-type: none; }
 #header a {
   color: #000;
-  text-decoration: none;
-}
+  text-decoration: none; }
 #header a:hover {
-  color: #ff6666;
-}
+  color: #ff6666; }
 
 .fs10 {
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 .fs11 {
-  font-size: 11px;
-}
+  font-size: 11px; }
 
 .fs12 {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .fs13 {
-  font-size: 13px;
-}
+  font-size: 13px; }
 
 .fs14 {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .fs10 {
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 .fs11 {
-  font-size: 11px;
-}
+  font-size: 11px; }
 
 .fs12 {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .fs13 {
-  font-size: 13px;
-}
+  font-size: 13px; }
 
 .fs14 {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .cat-image {
-  background: url("cat.png");
-}
+  background: url("cat.png"); }
 
 .dog-image {
-  background: url("dog.png");
-}
+  background: url("dog.png"); }
 
 .lion-image {
-  background: url("lion.png");
-}
+  background: url("lion.png"); }
 
 .grid {
   float: left;
-  width: 108px;
-}
+  width: 108px; }
+
+.kadomaru {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 4px; }
 
 /*# sourceMappingURL=main.css.map */
