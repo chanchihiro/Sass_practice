@@ -56,6 +56,24 @@ $animals: cat, dog, lion;
 
 
 
+// 関数
+$totalWidth:940px;
+$columnCount:5;
+@function getColumnWidth($width, $count){
+	//$columnWidthを計算
+	$padding: 10px;
+	$columnWidth : floor(($width - ($padding * ($count - 1))) /$count);
+	@return $columnWidth;
+}
+
+.grid{
+	float: left;
+	width: getColumnWidth($totalWidth, $columnCount);
+}
+
+
+
+
 
 
 
