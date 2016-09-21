@@ -1,6 +1,47 @@
+$fontbase : 14px;
+$default:true;
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
 #header{
 	width: 960px;
 	p{
 		color: blue;
+		font-size: $fontbase;
+	}
+
+	nav{
+		li{
+			float: left;
+			list-style-type: none;
+		}
+	}
+
+	a{
+		color: #000;
+		text-decoration: none;
+		&:hover{
+			color: lighten(red,20%);
+		}
 	}
 }
+
+
+@for $i from 10 through 14{	
+	.fs#{$i}{
+		font-size: #{$i}px;
+	}
+}
+
+$i:10;
+@while $i <= 14{
+	.fs#{$i}{
+		font-size: #{$i}px;
+	}
+	$i:$i+1;
+}
+
+
